@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.card{
+    height: 250px;
+    width: 400px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 5px;
+    margin-left: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input{
+    background-color: lightskyblue;
+    margin: 2px;
+    margin-left: 0px;
+}
+textarea{
+    margin-top: 5px;
+    
+}
+
+.badgeHeader{
+    text-align: center;
+    
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 4;
+}
+.badgeName{
+    grid-column: 0/1;
+    grid-row: 0/1;
+}
+.badgePhone{
+    grid-column: 2/3;
+    grid-row: 0/1; 
+}
+.descriptionContainer{
+    display: grid;
+    grid-template-columns: 4;
+}
+.description{
+    height: 100px;
+    width: 335px;
+    border: 1px solid black;
+    margin-left: 0px;   
+}
+.badgeDescription{
+    height: 100px;
+    width: 335px;
+    border: 1px solid black;
+    margin-left: 15px; 
+}
+.btn{
+    width: 340px;
+    height: 50px;
+    background-color: aquamarine;
+    border-radius: 7px;
+    box-shadow: burlywood;
+    text-shadow: cadetblue;
+    font-weight: bolder;
+}
+
+li{
+    list-style: none;
 }
